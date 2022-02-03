@@ -1,0 +1,18 @@
+# Color the points according to Army Component
+sns.scatterplot(x="x", y="y", hue='Component', data=df)
+
+# Show the plot
+plt.show()
+
+
+# Color the points by Army Branch
+sns.scatterplot(x="x", y="y", hue='Branch', data=df)
+
+# Show the plot
+plt.show()
+
+# Color the points by Gender
+sns.scatterplot(x="x", y="y", hue='Gender', data=df)
+
+# Show the plot
+plt.show()
